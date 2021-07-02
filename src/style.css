@@ -1,0 +1,137 @@
+html {
+    background-image: url("./img/backgroundpattern.png");
+    background-size: 100%;
+    background-color: #282828;
+}
+
+#loginpanel {
+    background-color: #1c1c1c;
+    width: 600px;
+    height: 700px;
+    opacity: 90%;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0 10px 40px 1px;
+    border-radius: 20px;
+}
+
+#loginpanel h1 {
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+
+.custom_form {
+    text-align: center;
+    opacity: 100%;
+    margin-top: 100px;
+}
+
+.custom_form input{
+    opacity: 100%;
+    border: none;
+    background-color: #282828;
+    width: 60%;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 15px 15px 15px 20px;
+    border-radius: 20px;
+}
+.custom_form button{
+    opacity: 100%;
+    border: none;
+    background-color: #282828;
+    width: 65%;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 15px 15px 15px 20px;
+    border-radius: 20px;
+}
+
+.custom_form button:hover{
+    background-color: #474747;
+}
+
+
+input:focus {
+    outline: none;
+}
+
+#fourofour{
+    font-size: 40px;
+    color: white;
+}
+
+#errorbounce {
+    background-color: #1c1c1c;
+    margin: 50px auto;
+    width: 520px;
+    height: 520px;
+    opacity: 95%;
+    box-shadow: 0 10px 40px 1px;
+    border-radius: 20px;
+    text-align: center;
+    -webkit-animation: breathing 10s ease-out infinite normal;
+    animation: breathing 10s ease-out infinite normal;
+}
+
+#fourofour{
+    font-size: 180px;
+}
+
+#errorbounce a{
+    font-size: 60px;
+    color: white;
+}
+
+@-webkit-keyframes breathing {
+    0% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    25% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    60% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    100% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+@keyframes breathing {
+    0% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    25% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+
+    60% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    100% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
