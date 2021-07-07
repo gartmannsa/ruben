@@ -15,6 +15,17 @@ html {
     border-radius: 20px;
 }
 
+#loginpanel2 {
+    background-color: #1c1c1c;
+    width: 600px;
+    height: 230px;
+    opacity: 90%;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0 10px 40px 1px;
+    border-radius: 20px;
+}
+
 #loginpanel h1 {
     font-family: "Comic Sans MS", sans-serif;
     font-size: 40px;
@@ -22,6 +33,15 @@ html {
     padding-top: 30px;
     color: white;
 }
+
+#loginpanel2 h1 {
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+
 
 .custom_form {
     text-align: center;
@@ -149,28 +169,101 @@ header {
 nav ul{
     margin: 0;
     padding-top: 5px;
-    width: 90%;
 }
 
 nav ul li{
     display: inline-block;
     list-style: none;
     color: white;
+    padding-bottom: 11px;
 }
 
 nav ul li a{
     text-decoration: none;
     color: white;
     font-size: 20px;
-    margin-right: 35px;
+    margin-right: 45px;
 }
 
 nav ul li a:hover{
     color: #baade2;
 }
 
+nav ul li ul {
+    display: none;
+    position: absolute;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+nav ul li ul{
+    margin-top: 11px;
+    text-align: center;
+    width: 70px;
+    margin-bottom: 5px;
+}
+
+nav ul li ul li{
+    display: list-item;
+    padding-bottom: 5px;
+    background-color: #5d4b9a;
+    margin-left: -120%;
+}
+
+nav ul li ul li a{
+    margin: 0;
+}
+
 #imglogo{
     height: 40px;
+}
+
+.headerlogo {
+    float: left;
+}
+
+#headerpositions {
+    display: grid;
+    grid-template-columns: 4% 60% 36%;
+    grid-template-rows: 100%;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+
+#instalogo {
+    width: 37px;
+    float: right;
+}
+
+#bclogo {
+    width: 65px;
+    float: right;
+    margin-right: 10px;
+}
+
+#bcgif {
+    width: 1200px;
+    margin: 5% 0 0 20%;
+}
+
+#duckgif{
+    margin: 50px 0 0 110px;
+}
+
+.buttondesign {
+    border: none;
+    background-color: #373737;
+    width: 100px;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    height: 40px;
+    float: right;
     margin-right: 30px;
-    display: inline;
+}
+
+.buttondesign:hover{
+    background-color: #474747;
 }

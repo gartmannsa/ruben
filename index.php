@@ -11,14 +11,18 @@ if (!empty($url[1])) {
             build('login.php', 'header1.php', 'footer1.php');
             break;
 
-        case 'noel':
-            build('try404.php', 'header1.php', 'footer1.php');
+        case 'bitcoin':
+            build('bitcoin.php', 'header1.php', 'footer1.php');
+            break;
+
+        case 'home':
+            build('home.php', 'header1.php', 'footer1.php');
             break;
 
         default:
             build('404.php', 'header1.php', 'footer1.php');
     }
 } else {
-    build('login.php', 'header1.php', 'footer1.php');
+    build('home.php', 'header1.php', 'footer1.php');
 }
     ?>
